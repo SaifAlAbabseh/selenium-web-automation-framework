@@ -27,7 +27,7 @@ pipeline {
                     checkout([
                             $class: 'GitSCM',
                             branches: [[name: '*/main']],
-                            userRemoteConfigs: [[url: 'https://github.com/SaifAlAbabseh/All-Chat-UI-Test-Automation.git']],
+                            userRemoteConfigs: [[url: 'https://github.com/SaifAlAbabseh/selenium-web-automation-framework.git']],
                             extensions: [[$class: 'WipeWorkspace']] // wipes the workspace
                     ])
                 }

@@ -1,11 +1,11 @@
-package stepdefinitions;
+package stepdefinitions.all_chat_project;
 
 import helpers.MainHelpers;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
-import pages.ChatPage;
-import pages.MainPage;
-import pages.UserChatPage;
+import pages.all_chat_project.ChatPage;
+import pages.all_chat_project.MainPage;
+import pages.all_chat_project.UserChatPage;
 import utils.EnvConfig;
 
 import static org.testng.Assert.assertEquals;

@@ -1,7 +1,7 @@
-package stepdefinitions;
+package stepdefinitions.all_chat_project;
 
 import io.cucumber.java.en.*;
-import pages.LoginPage;
+import pages.all_chat_project.LoginPage;
 import utils.Page;
 
 import static org.testng.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package pages;
+package pages.all_chat_project;
 
 import org.openqa.selenium.By;
 import utils.Page;

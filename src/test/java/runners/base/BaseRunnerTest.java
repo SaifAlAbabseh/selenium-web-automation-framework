@@ -11,8 +11,6 @@ import utils.DriverManager;
 import java.io.File;
 
 @CucumberOptions(
-        features = "classpath:features",
-        glue = {"stepdefinitions", "hooks"},
         plugin = {"pretty", "html:target/cucumber-report.html", "json:target/cucumber-report.json"}
 )
 public abstract class BaseRunnerTest extends AbstractTestNGCucumberTests {

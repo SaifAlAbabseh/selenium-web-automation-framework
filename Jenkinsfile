@@ -100,7 +100,7 @@ pipeline {
                         
                         trap cleanup EXIT
                         
-                        mvn clean install -U -DsuiteXmlFile=suites/MainTestSuite.xml \
+                        mvn clean install -U -DsuiteXmlFile=suites/all_chat_project/MainTestSuite.xml \
                        -Dbrowser=\${browser} -DheadlessMode=\${headlessMode} -DmobileMode=\${mobileMode}
                                        
                         TEST_EXIT_CODE=\$?
